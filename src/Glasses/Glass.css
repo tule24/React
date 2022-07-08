@@ -1,0 +1,37 @@
+.glasses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.glasses .glass{
+    width: 25%;
+    padding: 20px;
+}
+.glasses .glass img{
+    width: 100%;
+    cursor: pointer;
+}
+.model{
+    background: url('./glassesImage/model.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    position: relative;
+}
+.model img{
+    display: block;
+    left: 33%;
+    width: 33%;
+    top: 25%;
+    position: absolute;
+}
+.info{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+}
+.info span{
+    color: white;
+    font-style: italic;
+}
