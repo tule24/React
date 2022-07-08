@@ -1,0 +1,40 @@
+.phone-item{
+    width: 30rem;
+    margin: 0 20px;
+    text-align: center;
+}
+.phone-item img{
+    height: 30rem;
+    width: 30rem;
+}
+.cart{
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+.info-table{
+    border: 1px solid gray;
+    width: unset;
+    margin-bottom: 0;
+}
+.info-table tr td{
+    width: 20rem;
+}
+.info-table tr th{
+    width: 10rem;
+    border-right: 1px solid gray;
+}
+.info-img{
+    width: 30rem;
+    border: 1px solid gray;
+}
+#cartModal table{
+    width: 100%;
+}
+#cartModal table img{
+    width: 80px;
+}
+#cartModal table th, 
+#cartModal table td{
+    text-align: center;
+}

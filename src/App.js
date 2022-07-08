@@ -1,10 +1,10 @@
 import './App.css';
-import Glasses from './Glasses/Glasses';
+import SmartPhone from './SmartPhone/SmartPhone';
 
 function App() {
   return (
     <div className="App">
-      <Glasses />
+      <SmartPhone/>
     </div>
   );
 }
