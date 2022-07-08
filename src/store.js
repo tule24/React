@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import BurgerSlice from './Burger/BurgerRedux/BurgerSlice'
+import XucXacSlice from "./XucXac/XucXacRedux/XucXacSlice";
 
 export const store = configureStore({
     reducer: {
-        burger: BurgerSlice,
+        xucxac: XucXacSlice
     },
 })

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'fontGame';
+    src: url('./img/Pony.ttf');
+}
+
+.backgroundDiv{
+    background: url('./img/bgGame.png');
+    padding-top: 5rem;
+    height: 100vh;
+    font-family: fontGame;
+}
+
+.buttonStyle{
+    height: 10rem;
+    width: 10rem;
+    background-color: blueviolet !important;
+    border-radius: 5rem !important;
+}
+
