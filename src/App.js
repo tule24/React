@@ -1,10 +1,10 @@
 import './App.css';
-import SmartPhone from './SmartPhone/SmartPhone';
+import Burger from './Burger/Burger';
 
 function App() {
   return (
     <div className="App">
-      <SmartPhone/>
+      <Burger />
     </div>
   );
 }

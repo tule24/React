@@ -2,7 +2,6 @@ import React from 'react'
 
 export default function PhoneInfo(props) {
     let {maSP, tenSP, manHinh, heDieuHanh, cameraTruoc, cameraSau, ram, rom, giaBan, hinhAnh} = props.item;
-    console.log(props.item);
   return (
     <div className='d-flex'>
         <table className='table info-table table-hover'>
