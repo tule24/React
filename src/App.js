@@ -1,10 +1,10 @@
 import './App.css';
-import XucXac from './XucXac/XucXac';
+import QuanLyNguoiDung from './QuanLyNguoiDung/QuanLyNguoiDung';
 
 function App() {
   return (
     <div className="App">
-      <XucXac />
+      <QuanLyNguoiDung />
     </div>
   );
 }

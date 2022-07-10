@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import XucXacSlice from "./XucXac/XucXacRedux/XucXacSlice";
+import QuanLyNguoiDungSlice from './QuanLyNguoiDung/redux/QuanLyNguoiDungSlice'
 
 export const store = configureStore({
     reducer: {
-        xucxac: XucXacSlice
+        quanLyNguoiDung: QuanLyNguoiDungSlice
     },
 })
